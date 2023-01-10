@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "puppeteer": "^14.3.0"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB_layout_break_out_the_flow",
+    "id": 214484073
+  }
+}
